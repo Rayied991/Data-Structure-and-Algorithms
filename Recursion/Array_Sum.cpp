@@ -4,7 +4,9 @@ using namespace std;
 //sum(n,a)->sum of elements in array a till n index
 //sum(n,a)=a[n]+sum(n-1,a)
 int sum(int n,int*A){
-    if(n<0) return 0; 
+    if(n<0){
+        return 0; 
+    }
     return A[n]+sum(n-1,A);
 
 
