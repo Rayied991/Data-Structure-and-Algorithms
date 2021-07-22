@@ -65,7 +65,7 @@ public:
         }
         else if (Rear == Front && Front != -1)
         {
-            //when front==rear->special case delete korte korte rear and front same hole
+            //when front==rear->special case deleting untill when rear and front became same 
             //Front!=-1;->it is not empty
             temp = Queue[Front];
             Rear = Front - 1;
