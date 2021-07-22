@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+//Recursive function->
+//when a function call itself inside a function
 //Recursion is not always good enough
 //it sometimes gives us overhead
 int fib(int n)
